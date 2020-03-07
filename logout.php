@@ -1,0 +1,9 @@
+﻿<?php
+  session_start();
+  session_unset();
+  session_destroy();
+  //unset($_SESSION);
+?>
+<script>
+    document.location.replace("indexl.html");
+</script>
